@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofig Figurines et statuettes</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <button class="sales-btn">Soldes </button>
+
+    <header class="header">
+        <h1 class="header__title">oFig</header__title>
+            <span class="header__subtitle">Figurines et statuettes</span>
+        </h1>
+    </header>
+
+    <main class="cart-page">
+
+        <form action="" class="cart" method="">
+
+            <h1 class="cart__title">Préférences de livraison</h1>
+
+            <fieldset class="cart__fieldset">
+
+                <!-- Colonne de gauche -->
+                <div class="cart__column">
+
+                    <h2 class="cart__title-lvl2">Où souhaitez-vous être livré ?</h2>
+
+                    <div class="cart__formgroup cart__formgroup--h">
+                        <input type="radio" id="currentAdress" class="cart__input" name="deliveryLocation" checked>
+                        <label for="currentAdress" class="cart__label">Mon adresse courante</label>
+                    </div>
+
+                    <div class="cart__formgroup cart__formgroup--h">
+                        <input type="radio" id="otherAdress" class="cart__input" name="deliveryLocation" checked>
+                        <label for="otherAdress" class="cart__label">Autre adresse</label>
+                    </div>
+
+                    <h2 class="cart__title-lvl2">Options</h2>
+
+                    <div class="cart__formgroup cart__formgroup--h">
+                        <input type="checkbox" id="smsTracking" class="cart__input" checked>*
+                        <label for="smsTracking" class="cart__label">Suivi par SMS (inclus)</label>
+                    </div>
+
+                    <div class="cart__formgroup cart__formgroup--h">
+                        <input type="checkbox" id="refund" class="cart__input" checked>*
+                        <label for="refund" class="cart__label">Satisfait ou remboursé (+2€)</label>
+                    </div>
+
+                    <div class="cart__formgroup cart__formgroup--h">
+                        <input type="checkbox" id="waranty" class="cart__input" checked>*
+                        <label for="waranty" class="cart__label">Garantie 2 ans (+10€)</label>
+                    </div>
+
+                </div>
+
+                <!-- Colonne de droite  -->
+                <div class="cart__column">
+
+                    <h2 class="cart__title-lvl2">Adresse ?</h2>
+
+                    <div class="cart__formgroup cart__formgroup--v">
+                        <label for="street" class="cart__label">Rue</label>
+                        <input type="text" id="street" class="cart__input" name="">
+                    </div>
+
+                    <div class="cart__formgroup cart__formgroup--v">
+                        <label for="zipcode" class="cart__label">Code postal</label>
+                        <input type="text" id="zipcode" class="cart__input" name="">
+                    </div>
+
+                    <div class="cart__formgroup cart__formgroup--v">
+                        <label for="city" class="cart__label">Villezipcode</label>
+                        <input type="text" id="city" class="cart__input" name="">
+                    </div>
+
+                    <h2 class="cart__title-lvl2">Adresse ?</h2>
+
+                    <div class="cart__formgroup cart__formgroup--v">
+                        <label for="infos" class="cart__label">Interphone, bâtiment, etc...</label>
+                        <textarea name="" id="infos" class="cart__input"></textarea>
+                    </div>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset class="cart__fieldset">
+
+                <p class="cart__total">
+                    <span class="cart__total-text">
+                        Montant total à régler
+                    </span>
+
+                    <span class="cart__total-amount">
+                        197€
+                    </span>
+                </p>
+            </fieldset>
+
+            <fieldset class="cart__field">
+
+                <a href="" class="cart__catalog-link">
+                    Continuez vos achats
+                </a>
+
+                <button class="cart__submit">
+                    Valider et payer
+                </button>
+            </fieldset>
+
+            <footer class="footer">
+                <p class="footer__text">oFig - toutes les images sont sous copyright SquareEnix</p>
+            </footer>
+
+        </form>
+    </main>
+
+</body>
